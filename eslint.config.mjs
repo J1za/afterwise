@@ -1,0 +1,18 @@
+import nextCoreWebVitals from 'eslint-config-next/core-web-vitals';
+import nextTypescript from 'eslint-config-next/typescript';
+
+const config = [
+  {
+    ignores: [
+      '.next/**',
+      'node_modules/**',
+      '.claude/**',
+      'next-env.d.ts',
+      'tsconfig.tsbuildinfo',
+    ],
+  },
+  ...nextCoreWebVitals,
+  ...nextTypescript,
+];
+
+export default config;

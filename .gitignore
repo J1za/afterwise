@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.next/
+.vercel/
+*.log
+logs/
+.env
+.env.local
+.mcp.*
+.claude*
+claude*

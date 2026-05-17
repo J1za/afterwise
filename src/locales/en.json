@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "title": "Afterwise - wisdom after the fact",
+    "description": "Record a decision you have made - AI breaks it down into category, cognitive biases and missed alternatives."
+  },
+  "brand": {
+    "name": "afterwise",
+    "version": "v0.1",
+    "tagline": "wisdom after the fact"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Error",
+    "retry": "Retry",
+    "reset": "Reset",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "submit": "Submit",
+    "noData": "No data yet"
+  },
+  "notifications": {
+    "analysisFailed": {
+      "title": "Analysis failed",
+      "body": "Couldn't analyze the entry. Open it and retry.",
+      "bodyWithReason": "{message}"
+    },
+    "analysisDone": {
+      "title": "Analysis ready",
+      "body": "Your decision has been analyzed."
+    }
+  },
+  "landing": {
+    "title": "Reflect on decisions you've already made",
+    "subtitle": "Write down a situation and the choice you made. AI breaks it down into categories, cognitive biases and missed alternatives you didn't consider.",
+    "guestCard": {
+      "title": "Try as guest",
+      "description": "One free analysis without signing up. Same quality as the real thing.",
+      "cta": "Try it"
+    },
+    "signupCard": {
+      "title": "Create account",
+      "description": "Email + password. Save your decisions, browse the dashboard, come back to them.",
+      "cta": "Sign up"
+    },
+    "loginCard": {
+      "title": "Already have an account",
+      "description": "Sign in and continue from where you left off.",
+      "cta": "Sign in"
+    }
+  },
+  "auth": {
+    "signin": {
+      "title": "Welcome back",
+      "description": "Please enter your details",
+      "submit": "Sign in",
+      "alt": "Don't have an account?",
+      "altLink": "Sign up",
+      "guestOr": "Or",
+      "guestCta": "Continue as guest",
+      "guestHint": "No sign-up - one free analysis."
+    },
+    "signup": {
+      "title": "Create an account",
+      "description": "Please enter your details",
+      "submit": "Create account",
+      "alt": "Already have an account?",
+      "altLink": "Sign in"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "passwordConfirm": "Confirm Password",
+      "emailPlaceholder": "you@domain.com",
+      "passwordPlaceholder": "Min 6 characters",
+      "passwordConfirmPlaceholder": "Repeat password",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "passwordMismatch": "Passwords do not match"
+    },
+    "validation": {
+      "invalidEmail": "Invalid email",
+      "passwordMin": "At least 6 characters",
+      "passwordMax": "Up to 72 characters",
+      "passwordMismatch": "Passwords do not match"
+    },
+    "errors": {
+      "signinFailed": "Couldn't sign in",
+      "signupFailed": "Couldn't sign up",
+      "signoutFailed": "Couldn't sign out",
+      "rateLimit": "Too many attempts. Try again in a minute.",
+      "alreadyRegistered": "An account with this email already exists.",
+      "invalidCredentials": "Wrong email or password.",
+      "emailNotConfirmed": "Confirm your email - we've sent a link.",
+      "weakPassword": "Password must be at least 6 characters.",
+      "invalidEmail": "Invalid email.",
+      "userNotFound": "Couldn't load user"
+    },
+    "success": {
+      "signup": "Account created",
+      "signupBody": "Welcome to afterwise.",
+      "confirmEmail": "Confirm your email",
+      "confirmEmailBody": "We've sent an activation link."
+    }
+  },
+  "guest": {
+    "banner": "Guest mode: one request without signing up. Create an account to keep your history.",
+    "limitReached": "You've used your guest request. Sign up to continue.",
+    "signupCta": "Create account"
+  },
+  "nav": {
+    "history": "History",
+    "new": "New entry",
+    "dashboard": "Dashboard",
+    "home": "Home",
+    "logout": "Sign out",
+    "logoutConfirm": {
+      "title": "Sign out?",
+      "description": "Your session will be ended. You can sign in again anytime.",
+      "cancel": "Cancel",
+      "confirm": "Yes, sign out"
+    },
+    "toggleSidebar": "Collapse menu",
+    "theme": {
+      "label": "Toggle theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "language": {
+      "label": "Language",
+      "uk": "Українська",
+      "en": "English"
+    }
+  },
+  "status": {
+    "processing": "Processing",
+    "done": "Done",
+    "error": "Error"
+  },
+  "categories": {
+    "career": "Career",
+    "relationship": "Relationships",
+    "finance": "Finance",
+    "health": "Health",
+    "lifestyle": "Lifestyle",
+    "education": "Education",
+    "family": "Family",
+    "other": "Other"
+  },
+  "home": {
+    "hero": {
+      "latest": {
+        "label": "Latest decision",
+        "categoryLabel": "Category",
+        "empty": "No decisions yet",
+        "emptySubtitle": "Create your first entry to see analysis",
+        "cta": "Create first decision"
+      },
+      "total": {
+        "label": "Total decisions",
+        "subtitle": "All time"
+      },
+      "topBias": {
+        "label": "Top bias",
+        "empty": "Nothing yet"
+      },
+      "detail": {
+        "label": "Detailed statistics",
+        "subtitle": "Charts & breakdown",
+        "done": "Done",
+        "processing": "Processing",
+        "errored": "Errored"
+      },
+      "newCta": {
+        "title": "New entry",
+        "subtitle": "Capture a decision - the LLM analyzes it in seconds.",
+        "button": "Create"
+      }
+    },
+    "recent": {
+      "title": "Recent decisions",
+      "subtitle": "A few latest entries",
+      "viewAll": "All history"
+    }
+  },
+  "decisions": {
+    "list": {
+      "title": "Decision history",
+      "subtitle": "All decisions you've recorded, with analysis - category, biases, missed alternatives.",
+      "newCta": "New entry",
+      "filters": {
+        "label": "Filters",
+        "allStatuses": "All statuses",
+        "allCategories": "All categories",
+        "sort": {
+          "newest": "Newest first",
+          "oldest": "Oldest first"
+        }
+      },
+      "empty": {
+        "title": "No entries yet",
+        "description": "Create your first entry - and the LLM will analyze it, surfacing the category, potential biases and missed alternatives.",
+        "cta": "Create first entry"
+      },
+      "emptyFiltered": {
+        "title": "Nothing found",
+        "description": "No entries match the selected filters.",
+        "cta": "Reset filters"
+      },
+      "error": "Couldn't load decisions",
+      "card": {
+        "situation": "Situation",
+        "decision": "Decision"
+      }
+    },
+    "new": {
+      "title": "New entry",
+      "subtitle": "Write down a decision you've already made. Analysis starts immediately and takes a few seconds.",
+      "submit": "Create and analyze",
+      "hint": "Once you submit, the LLM will start the analysis in the background.",
+      "stepper": {
+        "step": "Step {current} of {total}",
+        "back": "Back",
+        "next": "Next",
+        "situationLabel": "Situation",
+        "situationDescription": "Set the context",
+        "decisionLabel": "Decision",
+        "decisionDescription": "What you chose",
+        "reasoningLabel": "Reasoning",
+        "reasoningDescription": "Why you chose it"
+      },
+      "fields": {
+        "situation": {
+          "label": "Situation",
+          "title": "Describe the situation",
+          "description": "The context that helps to understand under what conditions you made the decision.",
+          "placeholder": "For example: a job offer with higher pay but in another city..."
+        },
+        "decision": {
+          "label": "Decision",
+          "title": "What did you decide",
+          "description": "What you actually chose to do (or not do).",
+          "placeholder": "I accepted the offer and moved..."
+        },
+        "reasoning": {
+          "label": "Reasoning",
+          "title": "How you justified it (optional)",
+          "description": "What arguments were 'for', which doubts you ignored - anything you remember.",
+          "placeholder": "Higher pay is more important than routine; I believed I'd adapt..."
+        }
+      },
+      "validation": {
+        "situationMin": "Describe the situation in at least 10 characters",
+        "situationMax": "Up to 4000 characters",
+        "decisionMin": "Describe the decision in at least 5 characters",
+        "decisionMax": "Up to 2000 characters",
+        "reasoningMax": "Up to 4000 characters"
+      },
+      "success": "Entry created",
+      "successBody": "Analysis is in progress - it'll appear soon.",
+      "errorTitle": "Error"
+    },
+    "detail": {
+      "back": "Back to history",
+      "title": "Decision",
+      "titleWithCategory": "Decision · {category}",
+      "section": {
+        "situation": "Situation",
+        "decision": "Decision",
+        "reasoning": "Your reasoning"
+      },
+      "processing": {
+        "title": "Analysis in progress…",
+        "description": "The LLM is working on your entry. The page will update automatically."
+      },
+      "error": {
+        "title": "Analysis failed",
+        "noDetails": "Error details are not available.",
+        "retry": "Retry analysis"
+      },
+      "notFound": {
+        "title": "Entry not found",
+        "description": "It may have been deleted or you don't have access to it."
+      },
+      "loadFailed": "Couldn't load entry",
+      "retry": "Retry analysis",
+      "retrySuccess": "Analysis restarted",
+      "retrySuccessBody": "Wait a few seconds."
+    }
+  },
+  "analysis": {
+    "label": "Analysis",
+    "biases": "Cognitive biases",
+    "alternatives": "Missed alternatives"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Breakdown of your decisions by category, the most frequent cognitive biases and activity over time.",
+    "kpi": {
+      "total": "Total",
+      "processing": "Processing",
+      "done": "Completed",
+      "errored": "Errored"
+    },
+    "charts": {
+      "byCategory": "By category",
+      "byBias": "Top cognitive biases",
+      "byMonth": "Activity by month",
+      "countLabel": "Decisions",
+      "biasCountLabel": "Found"
+    },
+    "empty": {
+      "title": "No data yet",
+      "description": "Create a few entries - and you'll see the breakdown by category, frequency of cognitive biases and monthly activity."
+    },
+    "loadFailed": "Couldn't load statistics"
+  },
+  "footer": {
+    "copyright": "© afterwise",
+    "stack": "built with claude · supabase · next.js"
+  }
+}
